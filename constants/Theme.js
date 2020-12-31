@@ -1,0 +1,78 @@
+import {Dimensions} from 'react-native';
+
+const {width, height} = Dimensions.get('screen');
+
+export default {
+  COLORS: {
+    PRIMARY: '#343244',
+    DEFAULT: '#0099cc',
+    THEME: '#B23AFC',
+    INFO: '#1232FF',
+    ERROR: '#FE2472',
+    WARNING: '#FF9C09',
+    SUCCESS: '#45DF31',
+    INPUT: '#808080',
+    PLACEHOLDER: '#9FA5AA ',
+    NAVBAR: '#F9F9F9',
+    BLOCK: '#808080',
+    ICON: '#000000',
+    BACKGROUND: '#6d8cce',
+  },
+  SIZES: {
+    THEME: {
+      BASE: 16,
+      FONT: 16,
+      ICON: 16,
+      OPACITY: 0.8,
+      BORDER_RADIUS: 6,
+      BORDER_WIDTH: 0.8,
+    },
+    BUTTON: {
+      BUTTON_WIDTH: 16 * 9,
+      BUTTON_HEIGHT: 16 * 2.75,
+      BUTTON_SHADOW_RADIUS: 10,
+    },
+    BLOCK: {
+      BLOCK_SHADOW_OPACITY: 0.15,
+      BLOCK_SHADOW_RADIUS: 8,
+      ANDROID_ELEVATION: 1,
+    },
+    CARD: {
+      CARD_BORDER_RADIUS: 16 * 0.4,
+      CARD_BORDER_WIDTH: 16 * 0.05,
+      CARD_WIDTH: width - 16 * 2,
+      CARD_MARGIN_VERTICAL: 16 * 0.875,
+      CARD_FOOTER_HORIZONTAL: 16 * 0.75,
+      CARD_FOOTER_VERTICAL: 16 * 0.75,
+      CARD_AVATAR_WIDTH: 16 * 2.5,
+      CARD_AVATAR_HEIGHT: 16 * 2.5,
+      CARD_AVATAR_RADIUS: 16 * 1.25,
+      CARD_IMAGE_HEIGHT: 16 * 12.5,
+      CARD_ROUND: 16 * 0.1875,
+      CARD_ROUNDED: 16 * 0.5,
+    },
+    INPUT: {
+      INPUT_BORDER_RADIUS: 16 * 0.05,
+      INPUT_HEIGHT: 16 * 2.75,
+      INPUT_HORIZONTAL: 16,
+      INPUT_TEXT: 16 * 0.875,
+      INPUT_LABEL_TEXT: 16 * 0.9,
+      INPUT_LABEL_BOTTOM: 16 / 4,
+      INPUT_HELP_TEXT: 16 * 0.8,
+      INPUT_ROUNDED: 16 * 1.7,
+    },
+    NAVBAR: {
+      NAVBAR_HEIGHT: 16 * 4.125,
+      NAVBAR_VERTICAL: 16,
+      NAVBAR_TITLE_FLEX: 2,
+      NAVBAR_TITLE_HEIGHT: height * 0.07,
+      NAVBAR_TITLE_TEXT: 16 * 0.875,
+      NAVBAR_LEFT_FLEX: 0.5,
+      NAVBAR_LEFT_HEIGHT: height * 0.07,
+      NAVBAR_LEFT_MARGIN: 16,
+      NAVBAR_RIGHT_FLEX: 0.5,
+      NAVBAR_RIGHT_HEIGHT: height * 0.07,
+      NAVBAR_RIGHT_MARGIN: 16,
+    },
+  },
+};
